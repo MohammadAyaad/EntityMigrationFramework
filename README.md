@@ -1,6 +1,5 @@
 # EntityMigration   
 [![NuGet](https://img.shields.io/nuget/v/EntityMigration.svg?style=flat-square)](https://www.nuget.org/packages/EntityMigration/)  
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)  
 
 A type-safe migration engine for .NET that automates object version transformations through graph-based pathfinding.
 
@@ -72,6 +71,3 @@ public class WeightedRegistry<TBase> : IMigrationRegistry<TBase> {
 services.AddSingleton<IMigrationRegistry<DataModel>>(provider => 
     new WeightedRegistry<DataModel>(provider.GetServices<IMigration>()));
 `````
-
-## License
-MIT - See [LICENSE](LICENSE) for details.

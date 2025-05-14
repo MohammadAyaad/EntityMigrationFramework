@@ -4,7 +4,7 @@ using EntityMigration.Core;
 using EntityMigration.Core.MigrationRegistry;
 using EntityMigration.Internals;
 
-namespace EntityMigration;
+namespace EntityMigrationExampleApp;
 
 public static class Program
 {
@@ -24,8 +24,8 @@ public static class Program
         UserV2 a2 = manager.Migrate<UserV1, UserV2>(a);
 
         Console.WriteLine($"V2:\n{Newtonsoft.Json.JsonConvert.SerializeObject(a2)}");
-        UserV4 a3 = manager.Migrate<UserV1, UserV4>(a);
-        Console.WriteLine($"V3:\n{Newtonsoft.Json.JsonConvert.SerializeObject(a3)}");
+        UserV4 a4 = manager.Migrate<UserV1, UserV4>(a);
+        Console.WriteLine($"V4:\n{Newtonsoft.Json.JsonConvert.SerializeObject(a4)}");
     }
 }
 

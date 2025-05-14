@@ -1,0 +1,32 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [ "*.sln"],
+          "src": "../"
+        }
+      ],
+      "dest": "obj/api",
+      "namespaceLayout": "nested"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [ "**/*.yml" ],
+        "src": "obj/api",
+        "dest": "api"
+      },
+      {
+        "files": [ "articles/**/*.md", "*.md", "toc.yml"]
+      }
+    ],
+    "template": ["default","modern","templates/singulinkfx"],
+    "globalMetadata": {
+      "_appTitle": "Entity Migration Documentation",
+      "_enableSearch": true
+    },
+    "dest": "../docs"
+  }
+}
