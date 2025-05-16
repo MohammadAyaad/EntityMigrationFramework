@@ -2,14 +2,24 @@
 using EntityMigration.Builder;
 using EntityMigration.Core;
 using EntityMigration.Core.MigrationRegistry;
-using EntityMigration.Internals;
+using EntityMigrationExampleApp.Model.User;
+using EntityMigrationExampleApp.Model.User.Migrations;
+using EntityMigrationExampleApp.Model.User.Versions;
+using Newtonsoft.Json;
 
 namespace EntityMigrationExampleApp;
 
+/// <summary>
+/// The main class of the example app
+/// </summary>
 public static class Program
 {
+    /// <summary>
+    /// The main entry point of the example app
+    /// </summary>
     public static void Main(string[] args)
     {
+        // Configure migration manager
         IMigrationManager<BaseUser> manager = new MigrationBuilder<BaseUser>()
             .AddMigration<UserV1ToUserV2Migration, UserV1, UserV2>()
             .AddMigration<UserV2ToUserV3Migration, UserV2, UserV3>()
@@ -18,86 +28,20 @@ public static class Program
             .UseDefaultGraphRegistry()
             .Build();
 
-        UserV1 a = new UserV1() { Name = "XYZA" };
+        // Execute migrations
+        var v1User = new UserV1 { Name = "XYZA" };
 
-        Console.WriteLine($"V1:\n{Newtonsoft.Json.JsonConvert.SerializeObject(a)}");
-        UserV2 a2 = manager.Migrate<UserV1, UserV2>(a);
+        Console.WriteLine($"V1:\n{Serialize(v1User)}");
 
-        Console.WriteLine($"V2:\n{Newtonsoft.Json.JsonConvert.SerializeObject(a2)}");
-        UserV4 a4 = manager.Migrate<UserV1, UserV4>(a);
-        Console.WriteLine($"V4:\n{Newtonsoft.Json.JsonConvert.SerializeObject(a4)}");
+        // Direct migration to V2
+        var v2User = manager.Migrate<UserV1, UserV2>(v1User);
+        Console.WriteLine($"V2:\n{Serialize(v2User)}");
+
+        // Chained migration to V4
+        var v4User = manager.Migrate<UserV1, UserV4>(v1User);
+        Console.WriteLine($"V4:\n{Serialize(v4User)}");
     }
-}
 
-public class UserV1ToUserV2Migration : IMigration<UserV1, UserV2>
-{
-    public UserV2 Migrate(UserV1 src)
-    {
-        return new UserV2()
-        {
-            Id = src.Id,
-            FirstName = src.Name,
-            LastName = "",
-        };
-    }
-}
-
-public class UserV2ToUserV3Migration : IMigration<UserV2, UserV3>
-{
-    public UserV3 Migrate(UserV2 src)
-    {
-        return new UserV3()
-        {
-            Id = src.Id,
-            FirstName = src.FirstName,
-            LastName = src.LastName,
-            Age = -1,
-        };
-    }
-}
-
-public class UserV3ToUserV4Migration : IMigration<UserV3, UserV4>
-{
-    public UserV4 Migrate(UserV3 src)
-    {
-        return new UserV4()
-        {
-            Id = src.Id,
-            FirstName = src.FirstName,
-            LastName = src.LastName,
-            Job = "",
-            Age = src.Age,
-        };
-    }
-}
-
-public class BaseUser
-{
-    public Guid Id { get; set; }
-}
-
-public class UserV1 : BaseUser
-{
-    public required string Name { get; set; }
-}
-
-public class UserV2 : BaseUser
-{
-    public required string FirstName { get; set; }
-    public required string LastName { get; set; }
-}
-
-public class UserV3 : BaseUser
-{
-    public required string FirstName { get; set; }
-    public required string LastName { get; set; }
-    public int Age { get; set; }
-}
-
-public class UserV4 : BaseUser
-{
-    public required string FirstName { get; set; }
-    public required string LastName { get; set; }
-    public required string Job { get; set; }
-    public int Age { get; set; }
+    private static string Serialize(object obj) =>
+        Newtonsoft.Json.JsonConvert.SerializeObject(obj, Formatting.Indented);
 }
