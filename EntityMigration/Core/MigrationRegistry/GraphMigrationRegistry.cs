@@ -9,6 +9,10 @@ using EntityMigration.Internals;
 
 namespace EntityMigration.Core.MigrationRegistry;
 
+/// <summary>
+/// Graph-based migration registry that finds paths between model versions
+/// </summary>
+/// <typeparam name="TBase">Base type for all versioned models</typeparam>
 public class GraphMigrationRegistry<TBase> : IMigrationRegistry<TBase>
 {
     private readonly Dictionary<
@@ -16,6 +20,10 @@ public class GraphMigrationRegistry<TBase> : IMigrationRegistry<TBase>
         List<(Type DstType, Func<object, object> Migrate)>
     > _adjacencyList = new();
 
+    /// <summary>
+    /// Initializes a new graph-based registry
+    /// </summary>
+    /// <param name="migrations">Collection of migrations to build the graph from</param>
     public GraphMigrationRegistry(IEnumerable<IMigration> migrations)
     {
         foreach (var migration in migrations)
@@ -115,8 +123,18 @@ public class GraphMigrationRegistry<TBase> : IMigrationRegistry<TBase>
     }
 }
 
+/// <summary>
+/// Builder extension methods for graph-based registry configuration
+/// </summary>
 public static class GraphMigrationRegistryBuilderExtension
 {
+    /// <summary>
+    /// Configures the default graph-based migration registry
+    /// </summary>
+    /// <typeparam name="TBase">Base model type</typeparam>
+    /// <typeparam name="NextStage">Next builder stage type</typeparam>
+    /// <param name="builder">Builder instance</param>
+    /// <returns>Configured builder instance</returns>
     public static NextStage UseDefaultGraphRegistry<TBase, NextStage>(
         this IMigrationBuilderRegistrySelector<TBase, NextStage> builder
     )

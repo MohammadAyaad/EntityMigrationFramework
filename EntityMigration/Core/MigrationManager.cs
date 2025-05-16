@@ -3,26 +3,26 @@ using EntityMigration.Core;
 namespace EntityMigration.Core;
 
 /// <summary>
-/// Main entry point for migration operations
+/// Default implementation of migration management
 /// </summary>
-/// <typeparam name="TBase">Base type for all versioned models</typeparam>
+/// <typeparam name="TBase">Common base type for all model versions</typeparam>
+/// <exception cref="EntityMigration.Exceptions.MigrationPathNotFoundException">
+/// Thrown when no valid migration path exists between requested types
+/// </exception>
 public class MigrationManager<TBase> : IMigrationManager<TBase>
 {
     private readonly IMigrationRegistry<TBase> _migrationRegistry;
 
+    /// <summary>
+    /// Initializes a new migration manager
+    /// </summary>
+    /// <param name="migrationRegistry">Configured migration registry</param>
     public MigrationManager(IMigrationRegistry<TBase> migrationRegistry)
     {
         _migrationRegistry = migrationRegistry;
     }
 
-    /// <summary>
-    /// Migrates an object between two versions
-    /// </summary>
-    /// <param name="obj">Source object to migrate</param>
-    /// <returns>New instance of destination type</returns>
-    /// <exception cref="T:EntityMigration.MigrationPathNotFoundException">
-    /// Thrown when no valid migration path exists
-    /// </exception>
+    /// <inheritdoc/>
     public TTo Migrate<TFrom, TTo>(TFrom obj)
         where TFrom : TBase
         where TTo : TBase
