@@ -1,6 +1,11 @@
 repos:
   - repo: local
     hooks:
+      - id: clean up
+        name: Clean the solution before rebuilding
+        entry: bash -c 'dotnet clean && ./clean-docs.bash'
+        language: system
+
       - id: csharpier
         name: Run CSharpier formatter
         entry: bash -c 'csharpier format .'
@@ -21,6 +26,6 @@ repos:
 
       - id: docfx-build
         name: Generate documentation with DocFX
-        entry: bash -c 'cd docfx && docfx metadata && docfx build'
+        entry: bash -c 'cd docfx && docfx metadata && docfx build --dryRun'
         language: system
         pass_filenames: false

@@ -94,7 +94,6 @@ public class MigrationBuilder<TBase>
     /// Finalizes migration registration and transitions to registry configuration
     /// </summary>
     /// <returns>Registry configuration interface</returns>
-
     public IMigrationBuilderRegistrySelector<TBase, IMigrationBuilder<TBase>> Prepare()
     {
         return this;

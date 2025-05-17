@@ -9,21 +9,17 @@ public class MigrationException : System.Exception
     /// <summary>
     /// Initializes a new instance
     /// </summary>
-
     public MigrationException() { }
 
     /// <summary>
     /// Initializes a new instance with a message
     /// </summary>
-
     public MigrationException(string message)
         : base(message) { }
 
     /// <summary>
     /// Initializes a new instance with a message and an inner exception
     /// </summary>
-
-
     public MigrationException(string message, System.Exception inner)
         : base(message, inner) { }
 }
