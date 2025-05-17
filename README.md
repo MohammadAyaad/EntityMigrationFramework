@@ -1,11 +1,11 @@
-# EntityMigration   
-[![NuGet](https://img.shields.io/nuget/v/EntityMigration.svg?style=flat-square)](https://www.nuget.org/packages/EntityMigration/)  
+# EntityMigrationFramework   
+[![NuGet](https://img.shields.io/nuget/v/EntityMigrationFramework.svg?style=flat-square)](https://www.nuget.org/packages/EntityMigrationFramework/)  
 
 A type-safe migration engine for .NET that automates object version transformations through graph-based pathfinding.
 
 ## Installation
 ```bash
-Install-Package EntityMigration
+Install-Package EntityMigrationFramework
 ```
 
 ## Quick Start

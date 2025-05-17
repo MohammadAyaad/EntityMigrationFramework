@@ -1,0 +1,45 @@
+name: Regenerate DocFX docs
+
+on:
+  push:
+    branches: ['**']
+    paths-ignore:
+      - 'docs/**'
+      - 'docfx/_site/**'
+
+jobs:
+  docs:
+    name: Build & Commit Docs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '9.0.x'
+
+      # 3. Restore any local tools (DocFX)
+      - name: Restore .NET Tools
+        working-directory: .
+        run: dotnet tool restore
+
+      - name: DocFX metadata & build
+        working-directory: ./docfx
+        run: |
+          dotnet tool run docfx metadata
+          dotnet tool run docfx build
+
+      - name: Commit docs changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet docs; then
+            echo "✅ Docs are up to date—no commit needed."
+          else
+            git add docs
+            git commit -m "chore(docs): regenerate DocFX site [skip ci]"
+            git push
+          fi
