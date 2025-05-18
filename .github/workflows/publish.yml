@@ -25,7 +25,7 @@ jobs:
       uses: actions/setup-dotnet@v2
       with:
         dotnet-version: '8.0.x'
-    
+
     - name: Restore
       run: dotnet restore
     
@@ -34,6 +34,9 @@ jobs:
     
     - name: Test
       run: dotnet test --no-restore --verbosity normal
+    
+    - name: CD to project directory
+      run: cd ./EntityMigrationFramework
     
     - name: Pack
       run: dotnet pack --configuration Release --no-build -o out
