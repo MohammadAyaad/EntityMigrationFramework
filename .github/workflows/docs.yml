@@ -19,7 +19,11 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '9.0.x'
+      
 
+      - name: Clean docs
+        run: ./clean-docs.bash
+      
       - name: Install DocFX
         run: |
               dotnet tool install -g docfx
