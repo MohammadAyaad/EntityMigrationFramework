@@ -9,7 +9,7 @@
     <PackageProjectUrl>https://mohammadayaad.github.io/EntityMigrationFramework</PackageProjectUrl>
     <RepositoryUrl>https://github.com/MohammadAyaad/EntityMigrationFramework</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageTags>object;migration</PackageTags>
+    <PackageTags>entity;object;migration;type;em;emf;framework;migrate;</PackageTags>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageIcon>logo/logo.png</PackageIcon>
