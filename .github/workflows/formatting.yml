@@ -20,4 +20,4 @@ jobs:
             export PATH="$PATH:$HOME/.dotnet/tools"
 
       - name: Check formatting
-        run: dotnet csharpier --check ./EntityMigrationFramework/ ./EntityMigrationFramework.Tests/ ./EntityMigrationFrameworkExampleApp/
+        run: find . -type f -name '*.cs'   ! -path './bin/*'   ! -path './obj/*'   ! -path './**/bin/*'   ! -path './**/obj/*'   -print0 | xargs -0 csharpier check
