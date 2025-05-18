@@ -32,7 +32,7 @@ jobs:
 
       - name: Restore .NET Tools
         working-directory: .
-        run: dotnet tool restore
+        run: dotnet restore
 
       - name: DocFX metadata & build
         working-directory: ./docfx
@@ -44,10 +44,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet docs; then
-            echo "✅ Docs are up to date—no commit needed."
-          else
-            git add docs
-            git commit -m "chore(docs): regenerate DocFX site [skip ci]"
-            git push
-          fi
+          git add docs
+          git commit -m "chore(docs): regenerate DocFX site [skip ci]"
+          git push
+          
