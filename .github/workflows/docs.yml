@@ -40,11 +40,18 @@ jobs:
           docfx metadata
           docfx build
 
-      - name: Commit docs changes
+      - name: Setup Git user
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+
+      - name: Commit and Push
+        working-directory: .
+        env:
+          REPO: "github.com/MohammadAyaad/EntityMigrationFramework"
+          TOKEN: ${{ secrets.GHDT }}
+        run: |
           git add docs
-          git commit -m "chore(docs): regenerate DocFX site [skip ci]"
-          git push
+          git commit -m "CI: Auto-generated Documentation"
+          git push "https://x-access-token:$TOKEN@$REPO.git" HEAD:master
           
