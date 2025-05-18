@@ -10,10 +10,13 @@ jobs:
   docs:
     name: Build & Commit Docs
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
-          persist-credentials: true
+          token: ${{ secrets.GHDT }}
+          persist-credentials: false
 
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v3
