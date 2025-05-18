@@ -1,4 +1,4 @@
-name: Regenerate DocFX docs
+name: Generate DocFX docs
 
 on:
   push:

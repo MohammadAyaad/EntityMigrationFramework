@@ -5,6 +5,7 @@ on:
     workflows: 
       - "Run Unit Tests"
       - "Check Code Formatting"
+      - "Generate DocFX docs"
     types: [completed]
   push:
     branches:

@@ -1,13 +1,30 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
+    <PackageId>EntityMigrationFramework</PackageId>
+    <Version>0.1.0-alpha</Version>
+    <Authors>Mohammad Ayaad</Authors>
+    <Description>A framework for managing versions, migrations and the usage of them for a specific base type</Description>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://mohammadayaad.github.io/EntityMigrationFramework</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MohammadAyaad/EntityMigrationFramework</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>object;migration</PackageTags>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageIcon>logo/logo.png</PackageIcon>
+    <Copyright>© 2025 Mohammad Ayaad. Licensed under the Apache License, Version 2.0.</Copyright>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="../logo/logo.png" Pack="true" PackagePath="logo/" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="." />
   </ItemGroup>
 </Project>

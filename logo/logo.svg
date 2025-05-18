@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="86.603416mm"
+   viewBox="0 0 100 86.603416"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         id="path7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         id="path2" />
+    </marker>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-0.72300363,-0.62614014)">
+    <path
+       style="opacity:0.96;fill:#001f4d;fill-opacity:1;stroke:none;stroke-width:2.512;stroke-dasharray:none;stroke-opacity:1"
+       id="path14"
+       d="m -107.96134,237.56167 -59.30291,-1e-5 -29.65145,-51.35782 29.65146,-51.35782 59.3029,0 29.651453,51.35783 z"
+       transform="matrix(0.843129,0,0,0.84313747,166.74834,-113.06759)" />
+    <path
+       style="fill:#0078d7;fill-opacity:1;stroke:#00f5ff;stroke-width:4.24848;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#ArrowWideRounded);paint-order:normal"
+       d="M 39.981286,25.813276 V 64.306581"
+       id="path6" />
+    <path
+       style="fill:#00d1b2;fill-opacity:1;stroke:#00f5d4;stroke-width:4.24848;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker7)"
+       d="M 60.977551,21.746567 V 60.239872"
+       id="path6-6" />
+  </g>
+</svg>
