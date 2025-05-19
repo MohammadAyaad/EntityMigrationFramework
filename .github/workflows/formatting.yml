@@ -1,0 +1,23 @@
+name: Check Code Formatting
+
+on: [ push, pull_request ]
+
+jobs:
+  format-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 9.0.x
+
+      - name: Install CSharpier
+        run: |
+            dotnet tool install -g csharpier
+            echo "$HOME/.dotnet/tools" >> $GITHUB_PATH
+            export PATH="$PATH:$HOME/.dotnet/tools"
+
+      - name: Check formatting
+        run: find . -type f -name '*.cs'   ! -path './bin/*'   ! -path './obj/*'   ! -path './**/bin/*'   ! -path './**/obj/*'   -print0 | xargs -0 csharpier check

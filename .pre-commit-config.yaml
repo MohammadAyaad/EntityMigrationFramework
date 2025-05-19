@@ -1,0 +1,31 @@
+repos:
+  - repo: local
+    hooks:
+      - id: clean up
+        name: Clean the solution before rebuilding
+        entry: bash -c 'dotnet clean && ./clean-docs.bash'
+        language: system
+
+      - id: csharpier
+        name: Run CSharpier formatter
+        entry: bash -c 'csharpier format .'
+        language: system
+        files: \.cs$
+
+      - id: dotnet-build
+        name: Check for build errors
+        entry: bash -c 'dotnet build --nologo --no-restore'
+        language: system
+        pass_filenames: false
+
+      - id: dotnet-test
+        name: Run xUnit tests
+        entry: bash -c 'dotnet test --nologo --no-build'
+        language: system
+        pass_filenames: false
+
+      - id: docfx-build
+        name: Generate documentation with DocFX
+        entry: bash -c 'cd docfx && docfx metadata && docfx build --dryRun'
+        language: system
+        pass_filenames: false

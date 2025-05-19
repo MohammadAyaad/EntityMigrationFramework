@@ -1,4 +1,6 @@
 */obj/
 */bin/
 _site/
-api/
+example/
+tests/
+out/

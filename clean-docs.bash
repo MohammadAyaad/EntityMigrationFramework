@@ -1,0 +1,1 @@
+rm -rf ./docs && rm -rf ./docfx/obj

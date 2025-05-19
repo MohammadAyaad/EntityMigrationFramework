@@ -1,0 +1,60 @@
+name: Generate DocFX docs
+
+on:
+  push:
+    branches: ['**']
+    paths-ignore:
+      - 'docs/**'
+
+jobs:
+  docs:
+    name: Build & Commit Docs
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GHDT }}
+          persist-credentials: false
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '9.0.x'
+      
+
+      - name: Clean docs
+        run: ./clean-docs.bash
+      
+      - name: Install DocFX
+        run: |
+              dotnet tool install -g docfx
+              echo "$HOME/.dotnet/tools" >> $GITHUB_PATH
+              export PATH="$PATH:$HOME/.dotnet/tools"
+
+      - name: Restore .NET Tools
+        working-directory: .
+        run: dotnet restore
+
+      - name: DocFX metadata & build
+        working-directory: ./docfx
+        run: |
+          docfx metadata
+          docfx build
+
+      - name: Setup Git user
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+
+      - name: Commit and Push
+        working-directory: .
+        env:
+          REPO: "github.com/MohammadAyaad/EntityMigrationFramework"
+          TOKEN: ${{ secrets.GHDT }}
+        run: |
+          git add docs
+          git commit -m "CI: Auto-generated Documentation"
+          git push "https://x-access-token:$TOKEN@$REPO.git" HEAD:${{ github.ref_name }}
+          
