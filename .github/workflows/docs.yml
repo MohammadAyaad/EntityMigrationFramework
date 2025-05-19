@@ -56,5 +56,5 @@ jobs:
         run: |
           git add docs
           git commit -m "CI: Auto-generated Documentation"
-          git push "https://x-access-token:$TOKEN@$REPO.git" HEAD:master
+          git push "https://x-access-token:$TOKEN@$REPO.git" HEAD:${{ github.ref_name }}
           
