@@ -1,0 +1,578 @@
+{
+  "source_base_path": "/home/runner/work/EntityMigrationFramework/EntityMigrationFramework/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/getting_started.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/getting_started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFramework.Builder.IMigrationBuilder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFramework.Builder.IMigrationBuilder-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFramework.Builder.IMigrationBuilder<TBase>",
+      "Summary": "<p sourcefile=\"obj/api/EntityMigrationFramework.Builder.IMigrationBuilder-1.yml\" sourcestartlinenumber=\"1\">Finalization interface for the migration builder</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector<TBase, NextStage>",
+      "Summary": "<p sourcefile=\"obj/api/EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector-2.yml\" sourcestartlinenumber=\"1\">Interface for collecting migration implementations during configuration</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFramework.Builder.IMigrationBuilderRegistrySelector-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFramework.Builder.IMigrationBuilderRegistrySelector-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFramework.Builder.IMigrationBuilderRegistrySelector<TBase, NextStage>",
+      "Summary": "<p sourcefile=\"obj/api/EntityMigrationFramework.Builder.IMigrationBuilderRegistrySelector-2.yml\" sourcestartlinenumber=\"1\">Fluent interface for selecting and configuring migration registries</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFramework.Builder.MigrationBuilder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFramework.Builder.MigrationBuilder-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFramework.Builder.MigrationBuilder<TBase>",
+      "Summary": "<p sourcefile=\"obj/api/EntityMigrationFramework.Builder.MigrationBuilder-1.yml\" sourcestartlinenumber=\"1\">Fluent builder for configuring and creating migration managers</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFramework.Builder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFramework.Builder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFramework.Builder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFramework.Core.IMigration-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFramework.Core.IMigration-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFramework.Core.IMigration<TSrc, TDst>",
+      "Summary": "<p sourcefile=\"obj/api/EntityMigrationFramework.Core.IMigration-2.yml\" sourcestartlinenumber=\"1\">Represents a one-way strongly-typed migration from <code class=\"typeparamref\">TSrc</code> to <code class=\"typeparamref\">TDst</code></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFramework.Core.IMigrationManager-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFramework.Core.IMigrationManager-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFramework.Core.IMigrationManager<TBase>",
+      "Summary": "<p sourcefile=\"obj/api/EntityMigrationFramework.Core.IMigrationManager-1.yml\" sourcestartlinenumber=\"1\">Manages migration operations between different model versions</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFramework.Core.IMigrationRegistry-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFramework.Core.IMigrationRegistry-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFramework.Core.IMigrationRegistry<TBase>",
+      "Summary": "<p sourcefile=\"obj/api/EntityMigrationFramework.Core.IMigrationRegistry-1.yml\" sourcestartlinenumber=\"1\">Defines the contract for migration path resolution strategies</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFramework.Core.MigrationManager-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFramework.Core.MigrationManager-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFramework.Core.MigrationManager<TBase>",
+      "Summary": "<p sourcefile=\"obj/api/EntityMigrationFramework.Core.MigrationManager-1.yml\" sourcestartlinenumber=\"1\">Default implementation of migration management</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistry-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistry-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistry<TBase>",
+      "Summary": "<p sourcefile=\"obj/api/EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistry-1.yml\" sourcestartlinenumber=\"1\">Graph-based migration registry that finds paths between model versions</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistryBuilderExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistryBuilderExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistryBuilderExtension",
+      "Summary": "<p sourcefile=\"obj/api/EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistryBuilderExtension.yml\" sourcestartlinenumber=\"1\">Builder extension methods for graph-based registry configuration</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFramework.Core.MigrationRegistry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFramework.Core.MigrationRegistry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFramework.Core.MigrationRegistry",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFramework.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFramework.Core.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFramework.Core",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFramework.Exceptions.InvalidMigrationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFramework.Exceptions.InvalidMigrationException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFramework.Exceptions.InvalidMigrationException",
+      "Summary": "<p sourcefile=\"obj/api/EntityMigrationFramework.Exceptions.InvalidMigrationException.yml\" sourcestartlinenumber=\"1\">Exception thrown when invalid migration configuration is detected</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFramework.Exceptions.MigrationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFramework.Exceptions.MigrationException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFramework.Exceptions.MigrationException",
+      "Summary": "<p sourcefile=\"obj/api/EntityMigrationFramework.Exceptions.MigrationException.yml\" sourcestartlinenumber=\"1\">Represents all exceptions generated by this library.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFramework.Exceptions.MigrationPathNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFramework.Exceptions.MigrationPathNotFoundException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFramework.Exceptions.MigrationPathNotFoundException",
+      "Summary": "<p sourcefile=\"obj/api/EntityMigrationFramework.Exceptions.MigrationPathNotFoundException.yml\" sourcestartlinenumber=\"1\">Exception thrown when no valid migration path exists between requested types</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFramework.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFramework.Exceptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFramework.Exceptions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFramework.Internals.IMigration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFramework.Internals.IMigration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFramework.Internals.IMigration",
+      "Summary": "<p sourcefile=\"obj/api/EntityMigrationFramework.Internals.IMigration.yml\" sourcestartlinenumber=\"1\">[!WARNING DO NOT USE THIS!] Base interface for migrations</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFramework.Internals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFramework.Internals.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFramework.Internals",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFramework.Tests.UnitTest1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFramework.Tests.UnitTest1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFramework.Tests.UnitTest1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFramework.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFramework.Tests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFramework.Tests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFramework.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFramework.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": null,
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFrameworkExampleApp.Model.User.BaseUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFrameworkExampleApp.Model.User.BaseUser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFrameworkExampleApp.Model.User.BaseUser",
+      "Summary": "<p sourcefile=\"obj/api/EntityMigrationFrameworkExampleApp.Model.User.BaseUser.yml\" sourcestartlinenumber=\"1\">Represents the base class for all versions of the User model</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV1ToUserV2Migration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV1ToUserV2Migration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV1ToUserV2Migration",
+      "Summary": "<p sourcefile=\"obj/api/EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV1ToUserV2Migration.yml\" sourcestartlinenumber=\"1\">Handles conversion from UserV1 to UserV2 by splitting name</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV2ToUserV3Migration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV2ToUserV3Migration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV2ToUserV3Migration",
+      "Summary": "<p sourcefile=\"obj/api/EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV2ToUserV3Migration.yml\" sourcestartlinenumber=\"1\">Adds Age property with default value</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV3ToUserV4Migration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV3ToUserV4Migration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV3ToUserV4Migration",
+      "Summary": "<p sourcefile=\"obj/api/EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV3ToUserV4Migration.yml\" sourcestartlinenumber=\"1\">Adds Job information field</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFrameworkExampleApp.Model.User.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFrameworkExampleApp.Model.User.Migrations.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFrameworkExampleApp.Model.User.Migrations",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV1",
+      "Summary": "<p sourcefile=\"obj/api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV1.yml\" sourcestartlinenumber=\"1\">Initial user model with basic name property</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2",
+      "Summary": "<p sourcefile=\"obj/api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2.yml\" sourcestartlinenumber=\"1\">Added first/last name split, removed the Name</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3",
+      "Summary": "<p sourcefile=\"obj/api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.yml\" sourcestartlinenumber=\"1\">Added age property with default value</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4",
+      "Summary": "<p sourcefile=\"obj/api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.yml\" sourcestartlinenumber=\"1\">Added job information field</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFrameworkExampleApp.Model.User.Versions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFrameworkExampleApp.Model.User.Versions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFrameworkExampleApp.Model.User.Versions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFrameworkExampleApp.Model.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFrameworkExampleApp.Model.User.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFrameworkExampleApp.Model.User",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFrameworkExampleApp.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFrameworkExampleApp.Program.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFrameworkExampleApp.Program",
+      "Summary": "<p sourcefile=\"obj/api/EntityMigrationFrameworkExampleApp.Program.yml\" sourcestartlinenumber=\"1\">The main class of the example app</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/EntityMigrationFrameworkExampleApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EntityMigrationFrameworkExampleApp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EntityMigrationFrameworkExampleApp",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,885 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: EntityMigrationFramework
+  name: EntityMigrationFramework
+  href: api/EntityMigrationFramework.html
+- uid: EntityMigrationFramework.Builder
+  name: EntityMigrationFramework.Builder
+  href: api/EntityMigrationFramework.Builder.html
+  commentId: N:EntityMigrationFramework.Builder
+  fullName: EntityMigrationFramework.Builder
+  nameWithType: EntityMigrationFramework.Builder
+- uid: EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector`2
+  name: IMigrationBuilderMigrationCollector<TBase, NextStage>
+  href: api/EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector-2.html
+  commentId: T:EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector`2
+  name.vb: IMigrationBuilderMigrationCollector(Of TBase, NextStage)
+  fullName: EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector<TBase, NextStage>
+  fullName.vb: EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector(Of TBase, NextStage)
+  nameWithType: IMigrationBuilderMigrationCollector<TBase, NextStage>
+  nameWithType.vb: IMigrationBuilderMigrationCollector(Of TBase, NextStage)
+- uid: EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector`2.AddMigration*
+  name: AddMigration
+  href: api/EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector-2.html#EntityMigrationFramework_Builder_IMigrationBuilderMigrationCollector_2_AddMigration_
+  commentId: Overload:EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector`2.AddMigration
+  isSpec: "True"
+  fullName: EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector<TBase, NextStage>.AddMigration
+  fullName.vb: EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector(Of TBase, NextStage).AddMigration
+  nameWithType: IMigrationBuilderMigrationCollector<TBase, NextStage>.AddMigration
+  nameWithType.vb: IMigrationBuilderMigrationCollector(Of TBase, NextStage).AddMigration
+- uid: EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector`2.AddMigration``3
+  name: AddMigration<TMigration, TSrc, TDst>()
+  href: api/EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector-2.html#EntityMigrationFramework_Builder_IMigrationBuilderMigrationCollector_2_AddMigration__3
+  commentId: M:EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector`2.AddMigration``3
+  name.vb: AddMigration(Of TMigration, TSrc, TDst)()
+  fullName: EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector<TBase, NextStage>.AddMigration<TMigration, TSrc, TDst>()
+  fullName.vb: EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector(Of TBase, NextStage).AddMigration(Of TMigration, TSrc, TDst)()
+  nameWithType: IMigrationBuilderMigrationCollector<TBase, NextStage>.AddMigration<TMigration, TSrc, TDst>()
+  nameWithType.vb: IMigrationBuilderMigrationCollector(Of TBase, NextStage).AddMigration(Of TMigration, TSrc, TDst)()
+- uid: EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector`2.AddMigration``3(``0)
+  name: AddMigration<TMigration, TSrc, TDst>(TMigration)
+  href: api/EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector-2.html#EntityMigrationFramework_Builder_IMigrationBuilderMigrationCollector_2_AddMigration__3___0_
+  commentId: M:EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector`2.AddMigration``3(``0)
+  name.vb: AddMigration(Of TMigration, TSrc, TDst)(TMigration)
+  fullName: EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector<TBase, NextStage>.AddMigration<TMigration, TSrc, TDst>(TMigration)
+  fullName.vb: EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector(Of TBase, NextStage).AddMigration(Of TMigration, TSrc, TDst)(TMigration)
+  nameWithType: IMigrationBuilderMigrationCollector<TBase, NextStage>.AddMigration<TMigration, TSrc, TDst>(TMigration)
+  nameWithType.vb: IMigrationBuilderMigrationCollector(Of TBase, NextStage).AddMigration(Of TMigration, TSrc, TDst)(TMigration)
+- uid: EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector`2.Prepare
+  name: Prepare()
+  href: api/EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector-2.html#EntityMigrationFramework_Builder_IMigrationBuilderMigrationCollector_2_Prepare
+  commentId: M:EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector`2.Prepare
+  fullName: EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector<TBase, NextStage>.Prepare()
+  fullName.vb: EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector(Of TBase, NextStage).Prepare()
+  nameWithType: IMigrationBuilderMigrationCollector<TBase, NextStage>.Prepare()
+  nameWithType.vb: IMigrationBuilderMigrationCollector(Of TBase, NextStage).Prepare()
+- uid: EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector`2.Prepare*
+  name: Prepare
+  href: api/EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector-2.html#EntityMigrationFramework_Builder_IMigrationBuilderMigrationCollector_2_Prepare_
+  commentId: Overload:EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector`2.Prepare
+  isSpec: "True"
+  fullName: EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector<TBase, NextStage>.Prepare
+  fullName.vb: EntityMigrationFramework.Builder.IMigrationBuilderMigrationCollector(Of TBase, NextStage).Prepare
+  nameWithType: IMigrationBuilderMigrationCollector<TBase, NextStage>.Prepare
+  nameWithType.vb: IMigrationBuilderMigrationCollector(Of TBase, NextStage).Prepare
+- uid: EntityMigrationFramework.Builder.IMigrationBuilderRegistrySelector`2
+  name: IMigrationBuilderRegistrySelector<TBase, NextStage>
+  href: api/EntityMigrationFramework.Builder.IMigrationBuilderRegistrySelector-2.html
+  commentId: T:EntityMigrationFramework.Builder.IMigrationBuilderRegistrySelector`2
+  name.vb: IMigrationBuilderRegistrySelector(Of TBase, NextStage)
+  fullName: EntityMigrationFramework.Builder.IMigrationBuilderRegistrySelector<TBase, NextStage>
+  fullName.vb: EntityMigrationFramework.Builder.IMigrationBuilderRegistrySelector(Of TBase, NextStage)
+  nameWithType: IMigrationBuilderRegistrySelector<TBase, NextStage>
+  nameWithType.vb: IMigrationBuilderRegistrySelector(Of TBase, NextStage)
+- uid: EntityMigrationFramework.Builder.IMigrationBuilderRegistrySelector`2.UseRegistry*
+  name: UseRegistry
+  href: api/EntityMigrationFramework.Builder.IMigrationBuilderRegistrySelector-2.html#EntityMigrationFramework_Builder_IMigrationBuilderRegistrySelector_2_UseRegistry_
+  commentId: Overload:EntityMigrationFramework.Builder.IMigrationBuilderRegistrySelector`2.UseRegistry
+  isSpec: "True"
+  fullName: EntityMigrationFramework.Builder.IMigrationBuilderRegistrySelector<TBase, NextStage>.UseRegistry
+  fullName.vb: EntityMigrationFramework.Builder.IMigrationBuilderRegistrySelector(Of TBase, NextStage).UseRegistry
+  nameWithType: IMigrationBuilderRegistrySelector<TBase, NextStage>.UseRegistry
+  nameWithType.vb: IMigrationBuilderRegistrySelector(Of TBase, NextStage).UseRegistry
+- uid: EntityMigrationFramework.Builder.IMigrationBuilderRegistrySelector`2.UseRegistry``1(System.Func{System.Collections.Generic.List{EntityMigrationFramework.Internals.IMigration},``0})
+  name: UseRegistry<TRegistry>(Func<List<IMigration>, TRegistry>)
+  href: api/EntityMigrationFramework.Builder.IMigrationBuilderRegistrySelector-2.html#EntityMigrationFramework_Builder_IMigrationBuilderRegistrySelector_2_UseRegistry__1_System_Func_System_Collections_Generic_List_EntityMigrationFramework_Internals_IMigration____0__
+  commentId: M:EntityMigrationFramework.Builder.IMigrationBuilderRegistrySelector`2.UseRegistry``1(System.Func{System.Collections.Generic.List{EntityMigrationFramework.Internals.IMigration},``0})
+  name.vb: UseRegistry(Of TRegistry)(Func(Of List(Of IMigration), TRegistry))
+  fullName: EntityMigrationFramework.Builder.IMigrationBuilderRegistrySelector<TBase, NextStage>.UseRegistry<TRegistry>(System.Func<System.Collections.Generic.List<EntityMigrationFramework.Internals.IMigration>, TRegistry>)
+  fullName.vb: EntityMigrationFramework.Builder.IMigrationBuilderRegistrySelector(Of TBase, NextStage).UseRegistry(Of TRegistry)(System.Func(Of System.Collections.Generic.List(Of EntityMigrationFramework.Internals.IMigration), TRegistry))
+  nameWithType: IMigrationBuilderRegistrySelector<TBase, NextStage>.UseRegistry<TRegistry>(Func<List<IMigration>, TRegistry>)
+  nameWithType.vb: IMigrationBuilderRegistrySelector(Of TBase, NextStage).UseRegistry(Of TRegistry)(Func(Of List(Of IMigration), TRegistry))
+- uid: EntityMigrationFramework.Builder.IMigrationBuilder`1
+  name: IMigrationBuilder<TBase>
+  href: api/EntityMigrationFramework.Builder.IMigrationBuilder-1.html
+  commentId: T:EntityMigrationFramework.Builder.IMigrationBuilder`1
+  name.vb: IMigrationBuilder(Of TBase)
+  fullName: EntityMigrationFramework.Builder.IMigrationBuilder<TBase>
+  fullName.vb: EntityMigrationFramework.Builder.IMigrationBuilder(Of TBase)
+  nameWithType: IMigrationBuilder<TBase>
+  nameWithType.vb: IMigrationBuilder(Of TBase)
+- uid: EntityMigrationFramework.Builder.IMigrationBuilder`1.Build
+  name: Build()
+  href: api/EntityMigrationFramework.Builder.IMigrationBuilder-1.html#EntityMigrationFramework_Builder_IMigrationBuilder_1_Build
+  commentId: M:EntityMigrationFramework.Builder.IMigrationBuilder`1.Build
+  fullName: EntityMigrationFramework.Builder.IMigrationBuilder<TBase>.Build()
+  fullName.vb: EntityMigrationFramework.Builder.IMigrationBuilder(Of TBase).Build()
+  nameWithType: IMigrationBuilder<TBase>.Build()
+  nameWithType.vb: IMigrationBuilder(Of TBase).Build()
+- uid: EntityMigrationFramework.Builder.IMigrationBuilder`1.Build*
+  name: Build
+  href: api/EntityMigrationFramework.Builder.IMigrationBuilder-1.html#EntityMigrationFramework_Builder_IMigrationBuilder_1_Build_
+  commentId: Overload:EntityMigrationFramework.Builder.IMigrationBuilder`1.Build
+  isSpec: "True"
+  fullName: EntityMigrationFramework.Builder.IMigrationBuilder<TBase>.Build
+  fullName.vb: EntityMigrationFramework.Builder.IMigrationBuilder(Of TBase).Build
+  nameWithType: IMigrationBuilder<TBase>.Build
+  nameWithType.vb: IMigrationBuilder(Of TBase).Build
+- uid: EntityMigrationFramework.Builder.IMigrationBuilder`1.Build``1(System.Func{System.Collections.Generic.List{EntityMigrationFramework.Internals.IMigration},EntityMigrationFramework.Core.IMigrationRegistry{`0},``0})
+  name: Build<TMigrationManager>(Func<List<IMigration>, IMigrationRegistry<TBase>, TMigrationManager>)
+  href: api/EntityMigrationFramework.Builder.IMigrationBuilder-1.html#EntityMigrationFramework_Builder_IMigrationBuilder_1_Build__1_System_Func_System_Collections_Generic_List_EntityMigrationFramework_Internals_IMigration__EntityMigrationFramework_Core_IMigrationRegistry__0____0__
+  commentId: M:EntityMigrationFramework.Builder.IMigrationBuilder`1.Build``1(System.Func{System.Collections.Generic.List{EntityMigrationFramework.Internals.IMigration},EntityMigrationFramework.Core.IMigrationRegistry{`0},``0})
+  name.vb: Build(Of TMigrationManager)(Func(Of List(Of IMigration), IMigrationRegistry(Of TBase), TMigrationManager))
+  fullName: EntityMigrationFramework.Builder.IMigrationBuilder<TBase>.Build<TMigrationManager>(System.Func<System.Collections.Generic.List<EntityMigrationFramework.Internals.IMigration>, EntityMigrationFramework.Core.IMigrationRegistry<TBase>, TMigrationManager>)
+  fullName.vb: EntityMigrationFramework.Builder.IMigrationBuilder(Of TBase).Build(Of TMigrationManager)(System.Func(Of System.Collections.Generic.List(Of EntityMigrationFramework.Internals.IMigration), EntityMigrationFramework.Core.IMigrationRegistry(Of TBase), TMigrationManager))
+  nameWithType: IMigrationBuilder<TBase>.Build<TMigrationManager>(Func<List<IMigration>, IMigrationRegistry<TBase>, TMigrationManager>)
+  nameWithType.vb: IMigrationBuilder(Of TBase).Build(Of TMigrationManager)(Func(Of List(Of IMigration), IMigrationRegistry(Of TBase), TMigrationManager))
+- uid: EntityMigrationFramework.Builder.MigrationBuilder`1
+  name: MigrationBuilder<TBase>
+  href: api/EntityMigrationFramework.Builder.MigrationBuilder-1.html
+  commentId: T:EntityMigrationFramework.Builder.MigrationBuilder`1
+  name.vb: MigrationBuilder(Of TBase)
+  fullName: EntityMigrationFramework.Builder.MigrationBuilder<TBase>
+  fullName.vb: EntityMigrationFramework.Builder.MigrationBuilder(Of TBase)
+  nameWithType: MigrationBuilder<TBase>
+  nameWithType.vb: MigrationBuilder(Of TBase)
+- uid: EntityMigrationFramework.Builder.MigrationBuilder`1.#ctor
+  name: MigrationBuilder()
+  href: api/EntityMigrationFramework.Builder.MigrationBuilder-1.html#EntityMigrationFramework_Builder_MigrationBuilder_1__ctor
+  commentId: M:EntityMigrationFramework.Builder.MigrationBuilder`1.#ctor
+  name.vb: New()
+  fullName: EntityMigrationFramework.Builder.MigrationBuilder<TBase>.MigrationBuilder()
+  fullName.vb: EntityMigrationFramework.Builder.MigrationBuilder(Of TBase).New()
+  nameWithType: MigrationBuilder<TBase>.MigrationBuilder()
+  nameWithType.vb: MigrationBuilder(Of TBase).New()
+- uid: EntityMigrationFramework.Builder.MigrationBuilder`1.#ctor*
+  name: MigrationBuilder
+  href: api/EntityMigrationFramework.Builder.MigrationBuilder-1.html#EntityMigrationFramework_Builder_MigrationBuilder_1__ctor_
+  commentId: Overload:EntityMigrationFramework.Builder.MigrationBuilder`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: EntityMigrationFramework.Builder.MigrationBuilder<TBase>.MigrationBuilder
+  fullName.vb: EntityMigrationFramework.Builder.MigrationBuilder(Of TBase).New
+  nameWithType: MigrationBuilder<TBase>.MigrationBuilder
+  nameWithType.vb: MigrationBuilder(Of TBase).New
+- uid: EntityMigrationFramework.Builder.MigrationBuilder`1.AddMigration*
+  name: AddMigration
+  href: api/EntityMigrationFramework.Builder.MigrationBuilder-1.html#EntityMigrationFramework_Builder_MigrationBuilder_1_AddMigration_
+  commentId: Overload:EntityMigrationFramework.Builder.MigrationBuilder`1.AddMigration
+  isSpec: "True"
+  fullName: EntityMigrationFramework.Builder.MigrationBuilder<TBase>.AddMigration
+  fullName.vb: EntityMigrationFramework.Builder.MigrationBuilder(Of TBase).AddMigration
+  nameWithType: MigrationBuilder<TBase>.AddMigration
+  nameWithType.vb: MigrationBuilder(Of TBase).AddMigration
+- uid: EntityMigrationFramework.Builder.MigrationBuilder`1.AddMigration``3
+  name: AddMigration<TMigration, TSrc, TDst>()
+  href: api/EntityMigrationFramework.Builder.MigrationBuilder-1.html#EntityMigrationFramework_Builder_MigrationBuilder_1_AddMigration__3
+  commentId: M:EntityMigrationFramework.Builder.MigrationBuilder`1.AddMigration``3
+  name.vb: AddMigration(Of TMigration, TSrc, TDst)()
+  fullName: EntityMigrationFramework.Builder.MigrationBuilder<TBase>.AddMigration<TMigration, TSrc, TDst>()
+  fullName.vb: EntityMigrationFramework.Builder.MigrationBuilder(Of TBase).AddMigration(Of TMigration, TSrc, TDst)()
+  nameWithType: MigrationBuilder<TBase>.AddMigration<TMigration, TSrc, TDst>()
+  nameWithType.vb: MigrationBuilder(Of TBase).AddMigration(Of TMigration, TSrc, TDst)()
+- uid: EntityMigrationFramework.Builder.MigrationBuilder`1.AddMigration``3(``0)
+  name: AddMigration<TMigration, TSrc, TDst>(TMigration)
+  href: api/EntityMigrationFramework.Builder.MigrationBuilder-1.html#EntityMigrationFramework_Builder_MigrationBuilder_1_AddMigration__3___0_
+  commentId: M:EntityMigrationFramework.Builder.MigrationBuilder`1.AddMigration``3(``0)
+  name.vb: AddMigration(Of TMigration, TSrc, TDst)(TMigration)
+  fullName: EntityMigrationFramework.Builder.MigrationBuilder<TBase>.AddMigration<TMigration, TSrc, TDst>(TMigration)
+  fullName.vb: EntityMigrationFramework.Builder.MigrationBuilder(Of TBase).AddMigration(Of TMigration, TSrc, TDst)(TMigration)
+  nameWithType: MigrationBuilder<TBase>.AddMigration<TMigration, TSrc, TDst>(TMigration)
+  nameWithType.vb: MigrationBuilder(Of TBase).AddMigration(Of TMigration, TSrc, TDst)(TMigration)
+- uid: EntityMigrationFramework.Builder.MigrationBuilder`1.Build
+  name: Build()
+  href: api/EntityMigrationFramework.Builder.MigrationBuilder-1.html#EntityMigrationFramework_Builder_MigrationBuilder_1_Build
+  commentId: M:EntityMigrationFramework.Builder.MigrationBuilder`1.Build
+  fullName: EntityMigrationFramework.Builder.MigrationBuilder<TBase>.Build()
+  fullName.vb: EntityMigrationFramework.Builder.MigrationBuilder(Of TBase).Build()
+  nameWithType: MigrationBuilder<TBase>.Build()
+  nameWithType.vb: MigrationBuilder(Of TBase).Build()
+- uid: EntityMigrationFramework.Builder.MigrationBuilder`1.Build*
+  name: Build
+  href: api/EntityMigrationFramework.Builder.MigrationBuilder-1.html#EntityMigrationFramework_Builder_MigrationBuilder_1_Build_
+  commentId: Overload:EntityMigrationFramework.Builder.MigrationBuilder`1.Build
+  isSpec: "True"
+  fullName: EntityMigrationFramework.Builder.MigrationBuilder<TBase>.Build
+  fullName.vb: EntityMigrationFramework.Builder.MigrationBuilder(Of TBase).Build
+  nameWithType: MigrationBuilder<TBase>.Build
+  nameWithType.vb: MigrationBuilder(Of TBase).Build
+- uid: EntityMigrationFramework.Builder.MigrationBuilder`1.Build``1(System.Func{System.Collections.Generic.List{EntityMigrationFramework.Internals.IMigration},EntityMigrationFramework.Core.IMigrationRegistry{`0},``0})
+  name: Build<TMigrationManager>(Func<List<IMigration>, IMigrationRegistry<TBase>, TMigrationManager>)
+  href: api/EntityMigrationFramework.Builder.MigrationBuilder-1.html#EntityMigrationFramework_Builder_MigrationBuilder_1_Build__1_System_Func_System_Collections_Generic_List_EntityMigrationFramework_Internals_IMigration__EntityMigrationFramework_Core_IMigrationRegistry__0____0__
+  commentId: M:EntityMigrationFramework.Builder.MigrationBuilder`1.Build``1(System.Func{System.Collections.Generic.List{EntityMigrationFramework.Internals.IMigration},EntityMigrationFramework.Core.IMigrationRegistry{`0},``0})
+  name.vb: Build(Of TMigrationManager)(Func(Of List(Of IMigration), IMigrationRegistry(Of TBase), TMigrationManager))
+  fullName: EntityMigrationFramework.Builder.MigrationBuilder<TBase>.Build<TMigrationManager>(System.Func<System.Collections.Generic.List<EntityMigrationFramework.Internals.IMigration>, EntityMigrationFramework.Core.IMigrationRegistry<TBase>, TMigrationManager>)
+  fullName.vb: EntityMigrationFramework.Builder.MigrationBuilder(Of TBase).Build(Of TMigrationManager)(System.Func(Of System.Collections.Generic.List(Of EntityMigrationFramework.Internals.IMigration), EntityMigrationFramework.Core.IMigrationRegistry(Of TBase), TMigrationManager))
+  nameWithType: MigrationBuilder<TBase>.Build<TMigrationManager>(Func<List<IMigration>, IMigrationRegistry<TBase>, TMigrationManager>)
+  nameWithType.vb: MigrationBuilder(Of TBase).Build(Of TMigrationManager)(Func(Of List(Of IMigration), IMigrationRegistry(Of TBase), TMigrationManager))
+- uid: EntityMigrationFramework.Builder.MigrationBuilder`1.Prepare
+  name: Prepare()
+  href: api/EntityMigrationFramework.Builder.MigrationBuilder-1.html#EntityMigrationFramework_Builder_MigrationBuilder_1_Prepare
+  commentId: M:EntityMigrationFramework.Builder.MigrationBuilder`1.Prepare
+  fullName: EntityMigrationFramework.Builder.MigrationBuilder<TBase>.Prepare()
+  fullName.vb: EntityMigrationFramework.Builder.MigrationBuilder(Of TBase).Prepare()
+  nameWithType: MigrationBuilder<TBase>.Prepare()
+  nameWithType.vb: MigrationBuilder(Of TBase).Prepare()
+- uid: EntityMigrationFramework.Builder.MigrationBuilder`1.Prepare*
+  name: Prepare
+  href: api/EntityMigrationFramework.Builder.MigrationBuilder-1.html#EntityMigrationFramework_Builder_MigrationBuilder_1_Prepare_
+  commentId: Overload:EntityMigrationFramework.Builder.MigrationBuilder`1.Prepare
+  isSpec: "True"
+  fullName: EntityMigrationFramework.Builder.MigrationBuilder<TBase>.Prepare
+  fullName.vb: EntityMigrationFramework.Builder.MigrationBuilder(Of TBase).Prepare
+  nameWithType: MigrationBuilder<TBase>.Prepare
+  nameWithType.vb: MigrationBuilder(Of TBase).Prepare
+- uid: EntityMigrationFramework.Builder.MigrationBuilder`1.UseRegistry*
+  name: UseRegistry
+  href: api/EntityMigrationFramework.Builder.MigrationBuilder-1.html#EntityMigrationFramework_Builder_MigrationBuilder_1_UseRegistry_
+  commentId: Overload:EntityMigrationFramework.Builder.MigrationBuilder`1.UseRegistry
+  isSpec: "True"
+  fullName: EntityMigrationFramework.Builder.MigrationBuilder<TBase>.UseRegistry
+  fullName.vb: EntityMigrationFramework.Builder.MigrationBuilder(Of TBase).UseRegistry
+  nameWithType: MigrationBuilder<TBase>.UseRegistry
+  nameWithType.vb: MigrationBuilder(Of TBase).UseRegistry
+- uid: EntityMigrationFramework.Builder.MigrationBuilder`1.UseRegistry``1(System.Func{System.Collections.Generic.List{EntityMigrationFramework.Internals.IMigration},``0})
+  name: UseRegistry<TRegistry>(Func<List<IMigration>, TRegistry>)
+  href: api/EntityMigrationFramework.Builder.MigrationBuilder-1.html#EntityMigrationFramework_Builder_MigrationBuilder_1_UseRegistry__1_System_Func_System_Collections_Generic_List_EntityMigrationFramework_Internals_IMigration____0__
+  commentId: M:EntityMigrationFramework.Builder.MigrationBuilder`1.UseRegistry``1(System.Func{System.Collections.Generic.List{EntityMigrationFramework.Internals.IMigration},``0})
+  name.vb: UseRegistry(Of TRegistry)(Func(Of List(Of IMigration), TRegistry))
+  fullName: EntityMigrationFramework.Builder.MigrationBuilder<TBase>.UseRegistry<TRegistry>(System.Func<System.Collections.Generic.List<EntityMigrationFramework.Internals.IMigration>, TRegistry>)
+  fullName.vb: EntityMigrationFramework.Builder.MigrationBuilder(Of TBase).UseRegistry(Of TRegistry)(System.Func(Of System.Collections.Generic.List(Of EntityMigrationFramework.Internals.IMigration), TRegistry))
+  nameWithType: MigrationBuilder<TBase>.UseRegistry<TRegistry>(Func<List<IMigration>, TRegistry>)
+  nameWithType.vb: MigrationBuilder(Of TBase).UseRegistry(Of TRegistry)(Func(Of List(Of IMigration), TRegistry))
+- uid: EntityMigrationFramework.Core
+  name: EntityMigrationFramework.Core
+  href: api/EntityMigrationFramework.Core.html
+  commentId: N:EntityMigrationFramework.Core
+  fullName: EntityMigrationFramework.Core
+  nameWithType: EntityMigrationFramework.Core
+- uid: EntityMigrationFramework.Core.IMigrationManager`1
+  name: IMigrationManager<TBase>
+  href: api/EntityMigrationFramework.Core.IMigrationManager-1.html
+  commentId: T:EntityMigrationFramework.Core.IMigrationManager`1
+  name.vb: IMigrationManager(Of TBase)
+  fullName: EntityMigrationFramework.Core.IMigrationManager<TBase>
+  fullName.vb: EntityMigrationFramework.Core.IMigrationManager(Of TBase)
+  nameWithType: IMigrationManager<TBase>
+  nameWithType.vb: IMigrationManager(Of TBase)
+- uid: EntityMigrationFramework.Core.IMigrationManager`1.Migrate*
+  name: Migrate
+  href: api/EntityMigrationFramework.Core.IMigrationManager-1.html#EntityMigrationFramework_Core_IMigrationManager_1_Migrate_
+  commentId: Overload:EntityMigrationFramework.Core.IMigrationManager`1.Migrate
+  isSpec: "True"
+  fullName: EntityMigrationFramework.Core.IMigrationManager<TBase>.Migrate
+  fullName.vb: EntityMigrationFramework.Core.IMigrationManager(Of TBase).Migrate
+  nameWithType: IMigrationManager<TBase>.Migrate
+  nameWithType.vb: IMigrationManager(Of TBase).Migrate
+- uid: EntityMigrationFramework.Core.IMigrationManager`1.Migrate``2(``0)
+  name: Migrate<TFrom, TTo>(TFrom)
+  href: api/EntityMigrationFramework.Core.IMigrationManager-1.html#EntityMigrationFramework_Core_IMigrationManager_1_Migrate__2___0_
+  commentId: M:EntityMigrationFramework.Core.IMigrationManager`1.Migrate``2(``0)
+  name.vb: Migrate(Of TFrom, TTo)(TFrom)
+  fullName: EntityMigrationFramework.Core.IMigrationManager<TBase>.Migrate<TFrom, TTo>(TFrom)
+  fullName.vb: EntityMigrationFramework.Core.IMigrationManager(Of TBase).Migrate(Of TFrom, TTo)(TFrom)
+  nameWithType: IMigrationManager<TBase>.Migrate<TFrom, TTo>(TFrom)
+  nameWithType.vb: IMigrationManager(Of TBase).Migrate(Of TFrom, TTo)(TFrom)
+- uid: EntityMigrationFramework.Core.IMigrationRegistry`1
+  name: IMigrationRegistry<TBase>
+  href: api/EntityMigrationFramework.Core.IMigrationRegistry-1.html
+  commentId: T:EntityMigrationFramework.Core.IMigrationRegistry`1
+  name.vb: IMigrationRegistry(Of TBase)
+  fullName: EntityMigrationFramework.Core.IMigrationRegistry<TBase>
+  fullName.vb: EntityMigrationFramework.Core.IMigrationRegistry(Of TBase)
+  nameWithType: IMigrationRegistry<TBase>
+  nameWithType.vb: IMigrationRegistry(Of TBase)
+- uid: EntityMigrationFramework.Core.IMigrationRegistry`1.GetMigrationPath*
+  name: GetMigrationPath
+  href: api/EntityMigrationFramework.Core.IMigrationRegistry-1.html#EntityMigrationFramework_Core_IMigrationRegistry_1_GetMigrationPath_
+  commentId: Overload:EntityMigrationFramework.Core.IMigrationRegistry`1.GetMigrationPath
+  isSpec: "True"
+  fullName: EntityMigrationFramework.Core.IMigrationRegistry<TBase>.GetMigrationPath
+  fullName.vb: EntityMigrationFramework.Core.IMigrationRegistry(Of TBase).GetMigrationPath
+  nameWithType: IMigrationRegistry<TBase>.GetMigrationPath
+  nameWithType.vb: IMigrationRegistry(Of TBase).GetMigrationPath
+- uid: EntityMigrationFramework.Core.IMigrationRegistry`1.GetMigrationPath``2
+  name: GetMigrationPath<TFrom, TTo>()
+  href: api/EntityMigrationFramework.Core.IMigrationRegistry-1.html#EntityMigrationFramework_Core_IMigrationRegistry_1_GetMigrationPath__2
+  commentId: M:EntityMigrationFramework.Core.IMigrationRegistry`1.GetMigrationPath``2
+  name.vb: GetMigrationPath(Of TFrom, TTo)()
+  fullName: EntityMigrationFramework.Core.IMigrationRegistry<TBase>.GetMigrationPath<TFrom, TTo>()
+  fullName.vb: EntityMigrationFramework.Core.IMigrationRegistry(Of TBase).GetMigrationPath(Of TFrom, TTo)()
+  nameWithType: IMigrationRegistry<TBase>.GetMigrationPath<TFrom, TTo>()
+  nameWithType.vb: IMigrationRegistry(Of TBase).GetMigrationPath(Of TFrom, TTo)()
+- uid: EntityMigrationFramework.Core.IMigration`2
+  name: IMigration<TSrc, TDst>
+  href: api/EntityMigrationFramework.Core.IMigration-2.html
+  commentId: T:EntityMigrationFramework.Core.IMigration`2
+  name.vb: IMigration(Of TSrc, TDst)
+  fullName: EntityMigrationFramework.Core.IMigration<TSrc, TDst>
+  fullName.vb: EntityMigrationFramework.Core.IMigration(Of TSrc, TDst)
+  nameWithType: IMigration<TSrc, TDst>
+  nameWithType.vb: IMigration(Of TSrc, TDst)
+- uid: EntityMigrationFramework.Core.IMigration`2.Migrate(`0)
+  name: Migrate(TSrc)
+  href: api/EntityMigrationFramework.Core.IMigration-2.html#EntityMigrationFramework_Core_IMigration_2_Migrate__0_
+  commentId: M:EntityMigrationFramework.Core.IMigration`2.Migrate(`0)
+  fullName: EntityMigrationFramework.Core.IMigration<TSrc, TDst>.Migrate(TSrc)
+  fullName.vb: EntityMigrationFramework.Core.IMigration(Of TSrc, TDst).Migrate(TSrc)
+  nameWithType: IMigration<TSrc, TDst>.Migrate(TSrc)
+  nameWithType.vb: IMigration(Of TSrc, TDst).Migrate(TSrc)
+- uid: EntityMigrationFramework.Core.IMigration`2.Migrate*
+  name: Migrate
+  href: api/EntityMigrationFramework.Core.IMigration-2.html#EntityMigrationFramework_Core_IMigration_2_Migrate_
+  commentId: Overload:EntityMigrationFramework.Core.IMigration`2.Migrate
+  isSpec: "True"
+  fullName: EntityMigrationFramework.Core.IMigration<TSrc, TDst>.Migrate
+  fullName.vb: EntityMigrationFramework.Core.IMigration(Of TSrc, TDst).Migrate
+  nameWithType: IMigration<TSrc, TDst>.Migrate
+  nameWithType.vb: IMigration(Of TSrc, TDst).Migrate
+- uid: EntityMigrationFramework.Core.MigrationManager`1
+  name: MigrationManager<TBase>
+  href: api/EntityMigrationFramework.Core.MigrationManager-1.html
+  commentId: T:EntityMigrationFramework.Core.MigrationManager`1
+  name.vb: MigrationManager(Of TBase)
+  fullName: EntityMigrationFramework.Core.MigrationManager<TBase>
+  fullName.vb: EntityMigrationFramework.Core.MigrationManager(Of TBase)
+  nameWithType: MigrationManager<TBase>
+  nameWithType.vb: MigrationManager(Of TBase)
+- uid: EntityMigrationFramework.Core.MigrationManager`1.#ctor(EntityMigrationFramework.Core.IMigrationRegistry{`0})
+  name: MigrationManager(IMigrationRegistry<TBase>)
+  href: api/EntityMigrationFramework.Core.MigrationManager-1.html#EntityMigrationFramework_Core_MigrationManager_1__ctor_EntityMigrationFramework_Core_IMigrationRegistry__0__
+  commentId: M:EntityMigrationFramework.Core.MigrationManager`1.#ctor(EntityMigrationFramework.Core.IMigrationRegistry{`0})
+  name.vb: New(IMigrationRegistry(Of TBase))
+  fullName: EntityMigrationFramework.Core.MigrationManager<TBase>.MigrationManager(EntityMigrationFramework.Core.IMigrationRegistry<TBase>)
+  fullName.vb: EntityMigrationFramework.Core.MigrationManager(Of TBase).New(EntityMigrationFramework.Core.IMigrationRegistry(Of TBase))
+  nameWithType: MigrationManager<TBase>.MigrationManager(IMigrationRegistry<TBase>)
+  nameWithType.vb: MigrationManager(Of TBase).New(IMigrationRegistry(Of TBase))
+- uid: EntityMigrationFramework.Core.MigrationManager`1.#ctor*
+  name: MigrationManager
+  href: api/EntityMigrationFramework.Core.MigrationManager-1.html#EntityMigrationFramework_Core_MigrationManager_1__ctor_
+  commentId: Overload:EntityMigrationFramework.Core.MigrationManager`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: EntityMigrationFramework.Core.MigrationManager<TBase>.MigrationManager
+  fullName.vb: EntityMigrationFramework.Core.MigrationManager(Of TBase).New
+  nameWithType: MigrationManager<TBase>.MigrationManager
+  nameWithType.vb: MigrationManager(Of TBase).New
+- uid: EntityMigrationFramework.Core.MigrationManager`1.Migrate*
+  name: Migrate
+  href: api/EntityMigrationFramework.Core.MigrationManager-1.html#EntityMigrationFramework_Core_MigrationManager_1_Migrate_
+  commentId: Overload:EntityMigrationFramework.Core.MigrationManager`1.Migrate
+  isSpec: "True"
+  fullName: EntityMigrationFramework.Core.MigrationManager<TBase>.Migrate
+  fullName.vb: EntityMigrationFramework.Core.MigrationManager(Of TBase).Migrate
+  nameWithType: MigrationManager<TBase>.Migrate
+  nameWithType.vb: MigrationManager(Of TBase).Migrate
+- uid: EntityMigrationFramework.Core.MigrationManager`1.Migrate``2(``0)
+  name: Migrate<TFrom, TTo>(TFrom)
+  href: api/EntityMigrationFramework.Core.MigrationManager-1.html#EntityMigrationFramework_Core_MigrationManager_1_Migrate__2___0_
+  commentId: M:EntityMigrationFramework.Core.MigrationManager`1.Migrate``2(``0)
+  name.vb: Migrate(Of TFrom, TTo)(TFrom)
+  fullName: EntityMigrationFramework.Core.MigrationManager<TBase>.Migrate<TFrom, TTo>(TFrom)
+  fullName.vb: EntityMigrationFramework.Core.MigrationManager(Of TBase).Migrate(Of TFrom, TTo)(TFrom)
+  nameWithType: MigrationManager<TBase>.Migrate<TFrom, TTo>(TFrom)
+  nameWithType.vb: MigrationManager(Of TBase).Migrate(Of TFrom, TTo)(TFrom)
+- uid: EntityMigrationFramework.Core.MigrationRegistry
+  name: EntityMigrationFramework.Core.MigrationRegistry
+  href: api/EntityMigrationFramework.Core.MigrationRegistry.html
+  commentId: N:EntityMigrationFramework.Core.MigrationRegistry
+  fullName: EntityMigrationFramework.Core.MigrationRegistry
+  nameWithType: EntityMigrationFramework.Core.MigrationRegistry
+- uid: EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistryBuilderExtension
+  name: GraphMigrationRegistryBuilderExtension
+  href: api/EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistryBuilderExtension.html
+  commentId: T:EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistryBuilderExtension
+  fullName: EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistryBuilderExtension
+  nameWithType: GraphMigrationRegistryBuilderExtension
+- uid: EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistryBuilderExtension.UseDefaultGraphRegistry*
+  name: UseDefaultGraphRegistry
+  href: api/EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistryBuilderExtension.html#EntityMigrationFramework_Core_MigrationRegistry_GraphMigrationRegistryBuilderExtension_UseDefaultGraphRegistry_
+  commentId: Overload:EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistryBuilderExtension.UseDefaultGraphRegistry
+  isSpec: "True"
+  fullName: EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistryBuilderExtension.UseDefaultGraphRegistry
+  nameWithType: GraphMigrationRegistryBuilderExtension.UseDefaultGraphRegistry
+- uid: EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistryBuilderExtension.UseDefaultGraphRegistry``2(EntityMigrationFramework.Builder.IMigrationBuilderRegistrySelector{``0,``1})
+  name: UseDefaultGraphRegistry<TBase, NextStage>(IMigrationBuilderRegistrySelector<TBase, NextStage>)
+  href: api/EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistryBuilderExtension.html#EntityMigrationFramework_Core_MigrationRegistry_GraphMigrationRegistryBuilderExtension_UseDefaultGraphRegistry__2_EntityMigrationFramework_Builder_IMigrationBuilderRegistrySelector___0___1__
+  commentId: M:EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistryBuilderExtension.UseDefaultGraphRegistry``2(EntityMigrationFramework.Builder.IMigrationBuilderRegistrySelector{``0,``1})
+  name.vb: UseDefaultGraphRegistry(Of TBase, NextStage)(IMigrationBuilderRegistrySelector(Of TBase, NextStage))
+  fullName: EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistryBuilderExtension.UseDefaultGraphRegistry<TBase, NextStage>(EntityMigrationFramework.Builder.IMigrationBuilderRegistrySelector<TBase, NextStage>)
+  fullName.vb: EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistryBuilderExtension.UseDefaultGraphRegistry(Of TBase, NextStage)(EntityMigrationFramework.Builder.IMigrationBuilderRegistrySelector(Of TBase, NextStage))
+  nameWithType: GraphMigrationRegistryBuilderExtension.UseDefaultGraphRegistry<TBase, NextStage>(IMigrationBuilderRegistrySelector<TBase, NextStage>)
+  nameWithType.vb: GraphMigrationRegistryBuilderExtension.UseDefaultGraphRegistry(Of TBase, NextStage)(IMigrationBuilderRegistrySelector(Of TBase, NextStage))
+- uid: EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistry`1
+  name: GraphMigrationRegistry<TBase>
+  href: api/EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistry-1.html
+  commentId: T:EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistry`1
+  name.vb: GraphMigrationRegistry(Of TBase)
+  fullName: EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistry<TBase>
+  fullName.vb: EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistry(Of TBase)
+  nameWithType: GraphMigrationRegistry<TBase>
+  nameWithType.vb: GraphMigrationRegistry(Of TBase)
+- uid: EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistry`1.#ctor(System.Collections.Generic.IEnumerable{EntityMigrationFramework.Internals.IMigration})
+  name: GraphMigrationRegistry(IEnumerable<IMigration>)
+  href: api/EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistry-1.html#EntityMigrationFramework_Core_MigrationRegistry_GraphMigrationRegistry_1__ctor_System_Collections_Generic_IEnumerable_EntityMigrationFramework_Internals_IMigration__
+  commentId: M:EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistry`1.#ctor(System.Collections.Generic.IEnumerable{EntityMigrationFramework.Internals.IMigration})
+  name.vb: New(IEnumerable(Of IMigration))
+  fullName: EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistry<TBase>.GraphMigrationRegistry(System.Collections.Generic.IEnumerable<EntityMigrationFramework.Internals.IMigration>)
+  fullName.vb: EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistry(Of TBase).New(System.Collections.Generic.IEnumerable(Of EntityMigrationFramework.Internals.IMigration))
+  nameWithType: GraphMigrationRegistry<TBase>.GraphMigrationRegistry(IEnumerable<IMigration>)
+  nameWithType.vb: GraphMigrationRegistry(Of TBase).New(IEnumerable(Of IMigration))
+- uid: EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistry`1.#ctor*
+  name: GraphMigrationRegistry
+  href: api/EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistry-1.html#EntityMigrationFramework_Core_MigrationRegistry_GraphMigrationRegistry_1__ctor_
+  commentId: Overload:EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistry`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistry<TBase>.GraphMigrationRegistry
+  fullName.vb: EntityMigrationFramework.Core.MigrationRegistry.GraphMigrationRegistry(Of TBase).New
+  nameWithType: GraphMigrationRegistry<TBase>.GraphMigrationRegistry
+  nameWithType.vb: GraphMigrationRegistry(Of TBase).New
+- uid: EntityMigrationFramework.Exceptions
+  name: EntityMigrationFramework.Exceptions
+  href: api/EntityMigrationFramework.Exceptions.html
+  commentId: N:EntityMigrationFramework.Exceptions
+  fullName: EntityMigrationFramework.Exceptions
+  nameWithType: EntityMigrationFramework.Exceptions
+- uid: EntityMigrationFramework.Exceptions.InvalidMigrationException
+  name: InvalidMigrationException
+  href: api/EntityMigrationFramework.Exceptions.InvalidMigrationException.html
+  commentId: T:EntityMigrationFramework.Exceptions.InvalidMigrationException
+  fullName: EntityMigrationFramework.Exceptions.InvalidMigrationException
+  nameWithType: InvalidMigrationException
+- uid: EntityMigrationFramework.Exceptions.InvalidMigrationException.#ctor(System.String)
+  name: InvalidMigrationException(string)
+  href: api/EntityMigrationFramework.Exceptions.InvalidMigrationException.html#EntityMigrationFramework_Exceptions_InvalidMigrationException__ctor_System_String_
+  commentId: M:EntityMigrationFramework.Exceptions.InvalidMigrationException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: EntityMigrationFramework.Exceptions.InvalidMigrationException.InvalidMigrationException(string)
+  fullName.vb: EntityMigrationFramework.Exceptions.InvalidMigrationException.New(String)
+  nameWithType: InvalidMigrationException.InvalidMigrationException(string)
+  nameWithType.vb: InvalidMigrationException.New(String)
+- uid: EntityMigrationFramework.Exceptions.InvalidMigrationException.#ctor*
+  name: InvalidMigrationException
+  href: api/EntityMigrationFramework.Exceptions.InvalidMigrationException.html#EntityMigrationFramework_Exceptions_InvalidMigrationException__ctor_
+  commentId: Overload:EntityMigrationFramework.Exceptions.InvalidMigrationException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: EntityMigrationFramework.Exceptions.InvalidMigrationException.InvalidMigrationException
+  fullName.vb: EntityMigrationFramework.Exceptions.InvalidMigrationException.New
+  nameWithType: InvalidMigrationException.InvalidMigrationException
+  nameWithType.vb: InvalidMigrationException.New
+- uid: EntityMigrationFramework.Exceptions.MigrationException
+  name: MigrationException
+  href: api/EntityMigrationFramework.Exceptions.MigrationException.html
+  commentId: T:EntityMigrationFramework.Exceptions.MigrationException
+  fullName: EntityMigrationFramework.Exceptions.MigrationException
+  nameWithType: MigrationException
+- uid: EntityMigrationFramework.Exceptions.MigrationException.#ctor
+  name: MigrationException()
+  href: api/EntityMigrationFramework.Exceptions.MigrationException.html#EntityMigrationFramework_Exceptions_MigrationException__ctor
+  commentId: M:EntityMigrationFramework.Exceptions.MigrationException.#ctor
+  name.vb: New()
+  fullName: EntityMigrationFramework.Exceptions.MigrationException.MigrationException()
+  fullName.vb: EntityMigrationFramework.Exceptions.MigrationException.New()
+  nameWithType: MigrationException.MigrationException()
+  nameWithType.vb: MigrationException.New()
+- uid: EntityMigrationFramework.Exceptions.MigrationException.#ctor(System.String)
+  name: MigrationException(string)
+  href: api/EntityMigrationFramework.Exceptions.MigrationException.html#EntityMigrationFramework_Exceptions_MigrationException__ctor_System_String_
+  commentId: M:EntityMigrationFramework.Exceptions.MigrationException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: EntityMigrationFramework.Exceptions.MigrationException.MigrationException(string)
+  fullName.vb: EntityMigrationFramework.Exceptions.MigrationException.New(String)
+  nameWithType: MigrationException.MigrationException(string)
+  nameWithType.vb: MigrationException.New(String)
+- uid: EntityMigrationFramework.Exceptions.MigrationException.#ctor(System.String,System.Exception)
+  name: MigrationException(string, Exception)
+  href: api/EntityMigrationFramework.Exceptions.MigrationException.html#EntityMigrationFramework_Exceptions_MigrationException__ctor_System_String_System_Exception_
+  commentId: M:EntityMigrationFramework.Exceptions.MigrationException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: EntityMigrationFramework.Exceptions.MigrationException.MigrationException(string, System.Exception)
+  fullName.vb: EntityMigrationFramework.Exceptions.MigrationException.New(String, System.Exception)
+  nameWithType: MigrationException.MigrationException(string, Exception)
+  nameWithType.vb: MigrationException.New(String, Exception)
+- uid: EntityMigrationFramework.Exceptions.MigrationException.#ctor*
+  name: MigrationException
+  href: api/EntityMigrationFramework.Exceptions.MigrationException.html#EntityMigrationFramework_Exceptions_MigrationException__ctor_
+  commentId: Overload:EntityMigrationFramework.Exceptions.MigrationException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: EntityMigrationFramework.Exceptions.MigrationException.MigrationException
+  fullName.vb: EntityMigrationFramework.Exceptions.MigrationException.New
+  nameWithType: MigrationException.MigrationException
+  nameWithType.vb: MigrationException.New
+- uid: EntityMigrationFramework.Exceptions.MigrationPathNotFoundException
+  name: MigrationPathNotFoundException
+  href: api/EntityMigrationFramework.Exceptions.MigrationPathNotFoundException.html
+  commentId: T:EntityMigrationFramework.Exceptions.MigrationPathNotFoundException
+  fullName: EntityMigrationFramework.Exceptions.MigrationPathNotFoundException
+  nameWithType: MigrationPathNotFoundException
+- uid: EntityMigrationFramework.Exceptions.MigrationPathNotFoundException.#ctor(System.String)
+  name: MigrationPathNotFoundException(string)
+  href: api/EntityMigrationFramework.Exceptions.MigrationPathNotFoundException.html#EntityMigrationFramework_Exceptions_MigrationPathNotFoundException__ctor_System_String_
+  commentId: M:EntityMigrationFramework.Exceptions.MigrationPathNotFoundException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: EntityMigrationFramework.Exceptions.MigrationPathNotFoundException.MigrationPathNotFoundException(string)
+  fullName.vb: EntityMigrationFramework.Exceptions.MigrationPathNotFoundException.New(String)
+  nameWithType: MigrationPathNotFoundException.MigrationPathNotFoundException(string)
+  nameWithType.vb: MigrationPathNotFoundException.New(String)
+- uid: EntityMigrationFramework.Exceptions.MigrationPathNotFoundException.#ctor*
+  name: MigrationPathNotFoundException
+  href: api/EntityMigrationFramework.Exceptions.MigrationPathNotFoundException.html#EntityMigrationFramework_Exceptions_MigrationPathNotFoundException__ctor_
+  commentId: Overload:EntityMigrationFramework.Exceptions.MigrationPathNotFoundException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: EntityMigrationFramework.Exceptions.MigrationPathNotFoundException.MigrationPathNotFoundException
+  fullName.vb: EntityMigrationFramework.Exceptions.MigrationPathNotFoundException.New
+  nameWithType: MigrationPathNotFoundException.MigrationPathNotFoundException
+  nameWithType.vb: MigrationPathNotFoundException.New
+- uid: EntityMigrationFramework.Internals
+  name: EntityMigrationFramework.Internals
+  href: api/EntityMigrationFramework.Internals.html
+  commentId: N:EntityMigrationFramework.Internals
+  fullName: EntityMigrationFramework.Internals
+  nameWithType: EntityMigrationFramework.Internals
+- uid: EntityMigrationFramework.Internals.IMigration
+  name: IMigration
+  href: api/EntityMigrationFramework.Internals.IMigration.html
+  commentId: T:EntityMigrationFramework.Internals.IMigration
+  fullName: EntityMigrationFramework.Internals.IMigration
+  nameWithType: IMigration
+- uid: EntityMigrationFramework.Internals.IMigration.DestinationType
+  name: DestinationType
+  href: api/EntityMigrationFramework.Internals.IMigration.html#EntityMigrationFramework_Internals_IMigration_DestinationType
+  commentId: P:EntityMigrationFramework.Internals.IMigration.DestinationType
+  fullName: EntityMigrationFramework.Internals.IMigration.DestinationType
+  nameWithType: IMigration.DestinationType
+- uid: EntityMigrationFramework.Internals.IMigration.DestinationType*
+  name: DestinationType
+  href: api/EntityMigrationFramework.Internals.IMigration.html#EntityMigrationFramework_Internals_IMigration_DestinationType_
+  commentId: Overload:EntityMigrationFramework.Internals.IMigration.DestinationType
+  isSpec: "True"
+  fullName: EntityMigrationFramework.Internals.IMigration.DestinationType
+  nameWithType: IMigration.DestinationType
+- uid: EntityMigrationFramework.Internals.IMigration.MigrateObject(System.Object)
+  name: MigrateObject(object)
+  href: api/EntityMigrationFramework.Internals.IMigration.html#EntityMigrationFramework_Internals_IMigration_MigrateObject_System_Object_
+  commentId: M:EntityMigrationFramework.Internals.IMigration.MigrateObject(System.Object)
+  name.vb: MigrateObject(Object)
+  fullName: EntityMigrationFramework.Internals.IMigration.MigrateObject(object)
+  fullName.vb: EntityMigrationFramework.Internals.IMigration.MigrateObject(Object)
+  nameWithType: IMigration.MigrateObject(object)
+  nameWithType.vb: IMigration.MigrateObject(Object)
+- uid: EntityMigrationFramework.Internals.IMigration.MigrateObject*
+  name: MigrateObject
+  href: api/EntityMigrationFramework.Internals.IMigration.html#EntityMigrationFramework_Internals_IMigration_MigrateObject_
+  commentId: Overload:EntityMigrationFramework.Internals.IMigration.MigrateObject
+  isSpec: "True"
+  fullName: EntityMigrationFramework.Internals.IMigration.MigrateObject
+  nameWithType: IMigration.MigrateObject
+- uid: EntityMigrationFramework.Internals.IMigration.SourceType
+  name: SourceType
+  href: api/EntityMigrationFramework.Internals.IMigration.html#EntityMigrationFramework_Internals_IMigration_SourceType
+  commentId: P:EntityMigrationFramework.Internals.IMigration.SourceType
+  fullName: EntityMigrationFramework.Internals.IMigration.SourceType
+  nameWithType: IMigration.SourceType
+- uid: EntityMigrationFramework.Internals.IMigration.SourceType*
+  name: SourceType
+  href: api/EntityMigrationFramework.Internals.IMigration.html#EntityMigrationFramework_Internals_IMigration_SourceType_
+  commentId: Overload:EntityMigrationFramework.Internals.IMigration.SourceType
+  isSpec: "True"
+  fullName: EntityMigrationFramework.Internals.IMigration.SourceType
+  nameWithType: IMigration.SourceType
+- uid: EntityMigrationFramework.Tests
+  name: EntityMigrationFramework.Tests
+  href: api/EntityMigrationFramework.Tests.html
+  commentId: N:EntityMigrationFramework.Tests
+  fullName: EntityMigrationFramework.Tests
+  nameWithType: EntityMigrationFramework.Tests
+- uid: EntityMigrationFramework.Tests.UnitTest1
+  name: UnitTest1
+  href: api/EntityMigrationFramework.Tests.UnitTest1.html
+  commentId: T:EntityMigrationFramework.Tests.UnitTest1
+  fullName: EntityMigrationFramework.Tests.UnitTest1
+  nameWithType: UnitTest1
+- uid: EntityMigrationFramework.Tests.UnitTest1.Test1
+  name: Test1()
+  href: api/EntityMigrationFramework.Tests.UnitTest1.html#EntityMigrationFramework_Tests_UnitTest1_Test1
+  commentId: M:EntityMigrationFramework.Tests.UnitTest1.Test1
+  fullName: EntityMigrationFramework.Tests.UnitTest1.Test1()
+  nameWithType: UnitTest1.Test1()
+- uid: EntityMigrationFramework.Tests.UnitTest1.Test1*
+  name: Test1
+  href: api/EntityMigrationFramework.Tests.UnitTest1.html#EntityMigrationFramework_Tests_UnitTest1_Test1_
+  commentId: Overload:EntityMigrationFramework.Tests.UnitTest1.Test1
+  isSpec: "True"
+  fullName: EntityMigrationFramework.Tests.UnitTest1.Test1
+  nameWithType: UnitTest1.Test1
+- uid: EntityMigrationFrameworkExampleApp
+  name: EntityMigrationFrameworkExampleApp
+  href: api/EntityMigrationFrameworkExampleApp.html
+  commentId: N:EntityMigrationFrameworkExampleApp
+  fullName: EntityMigrationFrameworkExampleApp
+  nameWithType: EntityMigrationFrameworkExampleApp
+- uid: EntityMigrationFrameworkExampleApp.Model.User
+  name: EntityMigrationFrameworkExampleApp.Model.User
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.html
+  commentId: N:EntityMigrationFrameworkExampleApp.Model.User
+  fullName: EntityMigrationFrameworkExampleApp.Model.User
+  nameWithType: EntityMigrationFrameworkExampleApp.Model.User
+- uid: EntityMigrationFrameworkExampleApp.Model.User.BaseUser
+  name: BaseUser
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.BaseUser.html
+  commentId: T:EntityMigrationFrameworkExampleApp.Model.User.BaseUser
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.BaseUser
+  nameWithType: BaseUser
+- uid: EntityMigrationFrameworkExampleApp.Model.User.BaseUser.Id
+  name: Id
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.BaseUser.html#EntityMigrationFrameworkExampleApp_Model_User_BaseUser_Id
+  commentId: P:EntityMigrationFrameworkExampleApp.Model.User.BaseUser.Id
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.BaseUser.Id
+  nameWithType: BaseUser.Id
+- uid: EntityMigrationFrameworkExampleApp.Model.User.BaseUser.Id*
+  name: Id
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.BaseUser.html#EntityMigrationFrameworkExampleApp_Model_User_BaseUser_Id_
+  commentId: Overload:EntityMigrationFrameworkExampleApp.Model.User.BaseUser.Id
+  isSpec: "True"
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.BaseUser.Id
+  nameWithType: BaseUser.Id
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Migrations
+  name: EntityMigrationFrameworkExampleApp.Model.User.Migrations
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Migrations.html
+  commentId: N:EntityMigrationFrameworkExampleApp.Model.User.Migrations
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Migrations
+  nameWithType: EntityMigrationFrameworkExampleApp.Model.User.Migrations
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV1ToUserV2Migration
+  name: UserV1ToUserV2Migration
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV1ToUserV2Migration.html
+  commentId: T:EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV1ToUserV2Migration
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV1ToUserV2Migration
+  nameWithType: UserV1ToUserV2Migration
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV1ToUserV2Migration.Migrate(EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV1)
+  name: Migrate(UserV1)
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV1ToUserV2Migration.html#EntityMigrationFrameworkExampleApp_Model_User_Migrations_UserV1ToUserV2Migration_Migrate_EntityMigrationFrameworkExampleApp_Model_User_Versions_UserV1_
+  commentId: M:EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV1ToUserV2Migration.Migrate(EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV1)
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV1ToUserV2Migration.Migrate(EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV1)
+  nameWithType: UserV1ToUserV2Migration.Migrate(UserV1)
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV1ToUserV2Migration.Migrate*
+  name: Migrate
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV1ToUserV2Migration.html#EntityMigrationFrameworkExampleApp_Model_User_Migrations_UserV1ToUserV2Migration_Migrate_
+  commentId: Overload:EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV1ToUserV2Migration.Migrate
+  isSpec: "True"
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV1ToUserV2Migration.Migrate
+  nameWithType: UserV1ToUserV2Migration.Migrate
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV2ToUserV3Migration
+  name: UserV2ToUserV3Migration
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV2ToUserV3Migration.html
+  commentId: T:EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV2ToUserV3Migration
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV2ToUserV3Migration
+  nameWithType: UserV2ToUserV3Migration
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV2ToUserV3Migration.Migrate(EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2)
+  name: Migrate(UserV2)
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV2ToUserV3Migration.html#EntityMigrationFrameworkExampleApp_Model_User_Migrations_UserV2ToUserV3Migration_Migrate_EntityMigrationFrameworkExampleApp_Model_User_Versions_UserV2_
+  commentId: M:EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV2ToUserV3Migration.Migrate(EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2)
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV2ToUserV3Migration.Migrate(EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2)
+  nameWithType: UserV2ToUserV3Migration.Migrate(UserV2)
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV2ToUserV3Migration.Migrate*
+  name: Migrate
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV2ToUserV3Migration.html#EntityMigrationFrameworkExampleApp_Model_User_Migrations_UserV2ToUserV3Migration_Migrate_
+  commentId: Overload:EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV2ToUserV3Migration.Migrate
+  isSpec: "True"
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV2ToUserV3Migration.Migrate
+  nameWithType: UserV2ToUserV3Migration.Migrate
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV3ToUserV4Migration
+  name: UserV3ToUserV4Migration
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV3ToUserV4Migration.html
+  commentId: T:EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV3ToUserV4Migration
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV3ToUserV4Migration
+  nameWithType: UserV3ToUserV4Migration
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV3ToUserV4Migration.Migrate(EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3)
+  name: Migrate(UserV3)
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV3ToUserV4Migration.html#EntityMigrationFrameworkExampleApp_Model_User_Migrations_UserV3ToUserV4Migration_Migrate_EntityMigrationFrameworkExampleApp_Model_User_Versions_UserV3_
+  commentId: M:EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV3ToUserV4Migration.Migrate(EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3)
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV3ToUserV4Migration.Migrate(EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3)
+  nameWithType: UserV3ToUserV4Migration.Migrate(UserV3)
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV3ToUserV4Migration.Migrate*
+  name: Migrate
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV3ToUserV4Migration.html#EntityMigrationFrameworkExampleApp_Model_User_Migrations_UserV3ToUserV4Migration_Migrate_
+  commentId: Overload:EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV3ToUserV4Migration.Migrate
+  isSpec: "True"
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Migrations.UserV3ToUserV4Migration.Migrate
+  nameWithType: UserV3ToUserV4Migration.Migrate
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions
+  name: EntityMigrationFrameworkExampleApp.Model.User.Versions
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.html
+  commentId: N:EntityMigrationFrameworkExampleApp.Model.User.Versions
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions
+  nameWithType: EntityMigrationFrameworkExampleApp.Model.User.Versions
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV1
+  name: UserV1
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV1.html
+  commentId: T:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV1
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV1
+  nameWithType: UserV1
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV1.Name
+  name: Name
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV1.html#EntityMigrationFrameworkExampleApp_Model_User_Versions_UserV1_Name
+  commentId: P:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV1.Name
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV1.Name
+  nameWithType: UserV1.Name
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV1.Name*
+  name: Name
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV1.html#EntityMigrationFrameworkExampleApp_Model_User_Versions_UserV1_Name_
+  commentId: Overload:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV1.Name
+  isSpec: "True"
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV1.Name
+  nameWithType: UserV1.Name
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2
+  name: UserV2
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2.html
+  commentId: T:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2
+  nameWithType: UserV2
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2.FirstName
+  name: FirstName
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2.html#EntityMigrationFrameworkExampleApp_Model_User_Versions_UserV2_FirstName
+  commentId: P:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2.FirstName
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2.FirstName
+  nameWithType: UserV2.FirstName
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2.FirstName*
+  name: FirstName
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2.html#EntityMigrationFrameworkExampleApp_Model_User_Versions_UserV2_FirstName_
+  commentId: Overload:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2.FirstName
+  isSpec: "True"
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2.FirstName
+  nameWithType: UserV2.FirstName
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2.LastName
+  name: LastName
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2.html#EntityMigrationFrameworkExampleApp_Model_User_Versions_UserV2_LastName
+  commentId: P:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2.LastName
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2.LastName
+  nameWithType: UserV2.LastName
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2.LastName*
+  name: LastName
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2.html#EntityMigrationFrameworkExampleApp_Model_User_Versions_UserV2_LastName_
+  commentId: Overload:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2.LastName
+  isSpec: "True"
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV2.LastName
+  nameWithType: UserV2.LastName
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3
+  name: UserV3
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.html
+  commentId: T:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3
+  nameWithType: UserV3
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.Age
+  name: Age
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.html#EntityMigrationFrameworkExampleApp_Model_User_Versions_UserV3_Age
+  commentId: P:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.Age
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.Age
+  nameWithType: UserV3.Age
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.Age*
+  name: Age
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.html#EntityMigrationFrameworkExampleApp_Model_User_Versions_UserV3_Age_
+  commentId: Overload:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.Age
+  isSpec: "True"
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.Age
+  nameWithType: UserV3.Age
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.FirstName
+  name: FirstName
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.html#EntityMigrationFrameworkExampleApp_Model_User_Versions_UserV3_FirstName
+  commentId: P:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.FirstName
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.FirstName
+  nameWithType: UserV3.FirstName
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.FirstName*
+  name: FirstName
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.html#EntityMigrationFrameworkExampleApp_Model_User_Versions_UserV3_FirstName_
+  commentId: Overload:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.FirstName
+  isSpec: "True"
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.FirstName
+  nameWithType: UserV3.FirstName
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.LastName
+  name: LastName
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.html#EntityMigrationFrameworkExampleApp_Model_User_Versions_UserV3_LastName
+  commentId: P:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.LastName
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.LastName
+  nameWithType: UserV3.LastName
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.LastName*
+  name: LastName
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.html#EntityMigrationFrameworkExampleApp_Model_User_Versions_UserV3_LastName_
+  commentId: Overload:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.LastName
+  isSpec: "True"
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV3.LastName
+  nameWithType: UserV3.LastName
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4
+  name: UserV4
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.html
+  commentId: T:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4
+  nameWithType: UserV4
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.Age
+  name: Age
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.html#EntityMigrationFrameworkExampleApp_Model_User_Versions_UserV4_Age
+  commentId: P:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.Age
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.Age
+  nameWithType: UserV4.Age
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.Age*
+  name: Age
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.html#EntityMigrationFrameworkExampleApp_Model_User_Versions_UserV4_Age_
+  commentId: Overload:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.Age
+  isSpec: "True"
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.Age
+  nameWithType: UserV4.Age
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.FirstName
+  name: FirstName
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.html#EntityMigrationFrameworkExampleApp_Model_User_Versions_UserV4_FirstName
+  commentId: P:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.FirstName
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.FirstName
+  nameWithType: UserV4.FirstName
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.FirstName*
+  name: FirstName
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.html#EntityMigrationFrameworkExampleApp_Model_User_Versions_UserV4_FirstName_
+  commentId: Overload:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.FirstName
+  isSpec: "True"
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.FirstName
+  nameWithType: UserV4.FirstName
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.Job
+  name: Job
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.html#EntityMigrationFrameworkExampleApp_Model_User_Versions_UserV4_Job
+  commentId: P:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.Job
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.Job
+  nameWithType: UserV4.Job
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.Job*
+  name: Job
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.html#EntityMigrationFrameworkExampleApp_Model_User_Versions_UserV4_Job_
+  commentId: Overload:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.Job
+  isSpec: "True"
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.Job
+  nameWithType: UserV4.Job
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.LastName
+  name: LastName
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.html#EntityMigrationFrameworkExampleApp_Model_User_Versions_UserV4_LastName
+  commentId: P:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.LastName
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.LastName
+  nameWithType: UserV4.LastName
+- uid: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.LastName*
+  name: LastName
+  href: api/EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.html#EntityMigrationFrameworkExampleApp_Model_User_Versions_UserV4_LastName_
+  commentId: Overload:EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.LastName
+  isSpec: "True"
+  fullName: EntityMigrationFrameworkExampleApp.Model.User.Versions.UserV4.LastName
+  nameWithType: UserV4.LastName
+- uid: EntityMigrationFrameworkExampleApp.Program
+  name: Program
+  href: api/EntityMigrationFrameworkExampleApp.Program.html
+  commentId: T:EntityMigrationFrameworkExampleApp.Program
+  fullName: EntityMigrationFrameworkExampleApp.Program
+  nameWithType: Program
+- uid: EntityMigrationFrameworkExampleApp.Program.Main(System.String[])
+  name: Main(string[])
+  href: api/EntityMigrationFrameworkExampleApp.Program.html#EntityMigrationFrameworkExampleApp_Program_Main_System_String___
+  commentId: M:EntityMigrationFrameworkExampleApp.Program.Main(System.String[])
+  name.vb: Main(String())
+  fullName: EntityMigrationFrameworkExampleApp.Program.Main(string[])
+  fullName.vb: EntityMigrationFrameworkExampleApp.Program.Main(String())
+  nameWithType: Program.Main(string[])
+  nameWithType.vb: Program.Main(String())
+- uid: EntityMigrationFrameworkExampleApp.Program.Main*
+  name: Main
+  href: api/EntityMigrationFrameworkExampleApp.Program.html#EntityMigrationFrameworkExampleApp_Program_Main_
+  commentId: Overload:EntityMigrationFrameworkExampleApp.Program.Main
+  isSpec: "True"
+  fullName: EntityMigrationFrameworkExampleApp.Program.Main
+  nameWithType: Program.Main
